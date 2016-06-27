@@ -134,7 +134,7 @@
 
 ##5 setAttribute()
 
-通过\<A\>，\<form\>和response.sendRedirect()请求另一个页面，使用request.getAttribute()无效，pageContext.forward("a.jsp")有效。
+通过```<A>```，```<form>```和```response.sendRedirect()```请求另一个页面，使用```request.getAttribute()```无效，```pageContext.forward("a.jsp")```有效。
 
 ``` java
 <%@ page contentType="text/html; charset=GBK" %>
