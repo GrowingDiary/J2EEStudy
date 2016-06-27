@@ -38,12 +38,12 @@ QQ群：309451390
 * 操作考试
 
     * 小题 30分
-    * 大题 70分 Struct + Hibernate
+    * 大题 70分 Struts + Hibernate
 
 ###4.1 考试内容
 
 * java web
-* Struct
+* Struts
 * Hibernate
 
 ###4.2 需要补习的内容
