@@ -43,7 +43,7 @@
 
 选择控制台为__Java Stack Trace Console__即可。
 
-![](20160626培训_0.png)
+![](ConsoleConfig.png)
 
 ###5.2 端口不能绑定，有两种方式
 
