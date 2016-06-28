@@ -43,8 +43,8 @@ QQ群：309451390
 ###4.1 考试内容
 
 * java web
-* Struts
-* Hibernate
+* [Struts](https://struts.apache.org/index.html)
+* [Hibernate](http://hibernate.org/)
 
 ###4.2 需要补习的内容
 
