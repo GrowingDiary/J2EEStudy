@@ -32,8 +32,12 @@
 5. 打开浏览器，输入地址访问页面，地址：
 
     ```
-    http://localhost:8080/myweb
+    http://localhost:8080/myweb/index.jsp
     ```
+    
+    URL构成
+
+    ```[协议]://[主机名]:[端口]/[路径]/[文件]```
 
 ##5 可能存在的问题
 
@@ -127,6 +131,23 @@
 <%=request.getQueryString()%>
 ```
 
+多个值时，使用：
+
+```java
+request.getParameterValues()
+```
+
+##8 常见控件
+
+* 文本框
+* 复选框/单选框
+* 下拉菜单
+* 按钮
+* 标签
+
+__问题：__
+
+[如何把多个控件写成一个控件](JSP内置对象.md#4 getParameterValues())：name写成相同的即可。
 
 ##8 相关链接
 
