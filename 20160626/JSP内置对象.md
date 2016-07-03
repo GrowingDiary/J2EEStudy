@@ -104,6 +104,7 @@
 <body>
 <form action="b.jsp" method="get">
 	选择喜欢的商品<br>
+	// 注意：传递的是value，所以是“笔记”，而不是“笔记本”
 	<input type="checkbox" name="hobby" value="笔记" >笔记本
 	<input type="checkbox" name="hobby" value="手机" >手机
 	<input type="checkbox" name="hobby" value="PDA" >PDA
@@ -122,6 +123,8 @@
 <body>
 <%
 	String[] multiValues = request.getParameterValues("hobby");
+	// 注意：需要注意multiValues是否为空，可能没有任何参数
+	
 	for(int i=0;i<multiValues.length;i++)
 	  out.print(new String(multiValues[i].getBytes("ISO-8859-1"))+" ");  //汉字
 
