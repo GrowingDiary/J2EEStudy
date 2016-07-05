@@ -1,7 +1,4 @@
-# 2016.06.26 JAVA培训
-
-* 2016-6-26 10:02:54
-* <shanhui@agora.io>
+#准备开始
 
 ##1 页面
 
@@ -81,71 +78,8 @@
 ``` java
 <%@ page contentType="text/html; charset=GBK" %>
 ```
-        
-##6 JSP构成
 
-主要由3部分构成，分为：
-
-1. 代码段
-
-    ``` java
-    <%
-        out.print("Hello, World");
-    %>
-    ```
-    
-2. 表达式
-    功能有两个：求出表达式的值，输出
-    
-    ``` java
-    <%=request.getHeader("User-Agent")%>
-    ```
-    
-    EL表达式
-    
-    ``` java
-    ${header["User-Agent"]}
-    ${header.refer}
-    ```
-    
-3. 声明部分（已淘汰）
-
-    有生命周期，讲解Servlet时补全。
-
-    ``` java
-    <%!
-        int i = 0;
-    %>
-    ```
-
-##7 Form标签
-
-一个简单的form标签如下：
-
-``` java
-<form action="index.jsp" method="get">
-    用户名：<input type="text" name="user"/>
-    密码：<input type="password" name="password"/>
-    <input type="submit" value="提交"/>
-</form>
-```
-
-输出时，使用：(__必考__)
-
-``` java
-<%=request.getParameter("user")%>
-<%=request.getParameter("password")%>
-<%=request.getMethod()%>
-<%=request.getQueryString()%>
-```
-
-多个值时，使用：
-
-```java
-request.getParameterValues()
-```
-
-##8 常见控件
+##6 Html常见控件
 
 * 文本框
 * 复选框/单选框
@@ -155,9 +89,10 @@ request.getParameterValues()
 
 __问题：__
 
-[如何把多个控件写成一个控件](JSP内置对象.md#4 getParameterValues())：name写成相同的即可。
+* 如何把多个控件写成一个控件：name写成相同的即可。
 
-##8 相关链接
+---
+__相关链接__
 
 * [Html5标签参考](http://www.w3school.com.cn/tags/index.asp)
-* [HttpRequest参考](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html)
+

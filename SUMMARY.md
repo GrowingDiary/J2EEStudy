@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [第一课](20160626/README.md)
-    * [示例代码](20160626/示例代码.md)
-* [第二课](20160703/README.md)
-	* [示例代码](20160703/示例代码.md)
+* [准备开始](GetReady.md)
+* [JSP构成](JspStruct.md)
+* [JSP内置对象](JspBuiltInObject/JspBuiltInObject.md)
+    * [示例代码](JspBuiltInObject/示例代码.md)
