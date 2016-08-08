@@ -1,6 +1,14 @@
 #Hibernate
 
-Hibernate是一个对象关系映射ORM(Object Relational Mapping)框架，即数据与面对象的结构之间进行互相转化。下面是一个简单的示例：
+Hibernate是一个对象关系映射ORM(Object Relational Mapping)框架，即数据与面对象的结构之间进行互相转化。Hibernate实现大致如下：
+
+<img src="Hibernate_0.png" width=300/>
+
+首先，根据数据库表，映射成持久化类PC（persistent class）；
+其次，根据数据库等配置生成Session工厂，其中会加载对应的jar包，例如说mysql的驱动包等；
+最后，通过Session工厂产生Session，并进行使用。
+
+下面是一个简单的示例：
 
 ##1 建立数据库
 
